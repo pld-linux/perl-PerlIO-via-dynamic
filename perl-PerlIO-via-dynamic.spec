@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	PerlIO
 %define	pnam	via-dynamic
-Summary:	Data::PerlIO-via-dynamic - dynamic PerlIO layers
+Summary:	PerlIO::via::dynamic - dynamic PerlIO layers
+Summary(pl):	PerlIO::via::dynamic - dynamiczne warstwy PerlIO
 Name:		perl-PerlIO-via-dynamic
 Version:	0.02
 Release:	1
@@ -14,7 +15,6 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2b467909bb43d0f406c8e302fe719912
-URL:		http://www.geocities.com/easydatabase/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -23,6 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PerlIO::via::dynamic is used for creating dynamic PerlIO layers. It is
 useful when the behavior or the layer depends on variables.
+
+%description -l pl
+PerlIO::via::dynamic s³u¿y do tworzenia dynamicznych warstw PerlIO.
+Jest przydatny kiedy zachowanie lub warstwa zale¿y od zmiennych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -46,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGE*
-%{perl_vendorlib}/%{pdir}/via/*.pm
+%{perl_vendorlib}/PerlIO/via/*.pm
 %{_mandir}/man3/*
