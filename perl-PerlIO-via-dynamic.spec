@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PerlIO
-%define	pnam	via-dynamic
+%define		pdir	PerlIO
+%define		pnam	via-dynamic
 Summary:	PerlIO::via::dynamic - dynamic PerlIO layers
 Summary(pl):	PerlIO::via::dynamic - dynamiczne warstwy PerlIO
 Name:		perl-PerlIO-via-dynamic
