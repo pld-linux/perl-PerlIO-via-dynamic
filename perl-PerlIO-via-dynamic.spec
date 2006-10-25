@@ -8,13 +8,13 @@
 Summary:	PerlIO::via::dynamic - dynamic PerlIO layers
 Summary(pl):	PerlIO::via::dynamic - dynamiczne warstwy PerlIO
 Name:		perl-PerlIO-via-dynamic
-Version:	0.11
+Version:	0.12
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c37d34e2a4e8623f3429693e61b78363
+# Source0-md5:	2bbb9d61c3e8df006e8bede08ed5c9c1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
