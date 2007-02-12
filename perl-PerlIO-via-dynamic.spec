@@ -6,7 +6,7 @@
 %define		pdir	PerlIO
 %define		pnam	via-dynamic
 Summary:	PerlIO::via::dynamic - dynamic PerlIO layers
-Summary(pl):	PerlIO::via::dynamic - dynamiczne warstwy PerlIO
+Summary(pl.UTF-8):   PerlIO::via::dynamic - dynamiczne warstwy PerlIO
 Name:		perl-PerlIO-via-dynamic
 Version:	0.12
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PerlIO::via::dynamic is used for creating dynamic PerlIO layers. It is
 useful when the behavior or the layer depends on variables.
 
-%description -l pl
-PerlIO::via::dynamic s≥uøy do tworzenia dynamicznych warstw PerlIO.
-Jest przydatny kiedy zachowanie lub warstwa zaleøy od zmiennych.
+%description -l pl.UTF-8
+PerlIO::via::dynamic s≈Çu≈ºy do tworzenia dynamicznych warstw PerlIO.
+Jest przydatny kiedy zachowanie lub warstwa zale≈ºy od zmiennych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
