@@ -6,7 +6,7 @@
 %define		pdir	PerlIO
 %define		pnam	via-dynamic
 Summary:	PerlIO::via::dynamic - dynamic PerlIO layers
-Summary(pl.UTF-8):   PerlIO::via::dynamic - dynamiczne warstwy PerlIO
+Summary(pl.UTF-8):	PerlIO::via::dynamic - dynamiczne warstwy PerlIO
 Name:		perl-PerlIO-via-dynamic
 Version:	0.12
 Release:	1
