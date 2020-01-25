@@ -4,7 +4,6 @@
 
 %define		pdir	PerlIO
 %define		pnam	via-dynamic
-%include	/usr/lib/rpm/macros.perl
 Summary:	PerlIO::via::dynamic - dynamic PerlIO layers
 Summary(pl.UTF-8):	PerlIO::via::dynamic - dynamiczne warstwy PerlIO
 Name:		perl-PerlIO-via-dynamic
